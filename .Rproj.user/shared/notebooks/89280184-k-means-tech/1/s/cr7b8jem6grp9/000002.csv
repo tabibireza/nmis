@@ -1,0 +1,41 @@
+"0","```r
+print(k2)
+```"
+"1","K-means clustering with 4 clusters of sizes 16, 13, 13, 8
+
+Cluster means:
+      Murder    Assault   UrbanPop        Rape
+1 -0.4894375 -0.3826001  0.5758298 -0.26165379
+2  0.6950701  1.0394414  0.7226370  1.27693964
+3 -0.9615407 -1.1066010 -0.9301069 -0.96676331
+4  1.4118898  0.8743346 -0.8145211  0.01927104
+
+Clustering vector:
+       Alabama         Alaska        Arizona       Arkansas     California       Colorado 
+             4              2              2              4              2              2 
+   Connecticut       Delaware        Florida        Georgia         Hawaii          Idaho 
+             1              1              2              4              1              3 
+      Illinois        Indiana           Iowa         Kansas       Kentucky      Louisiana 
+             2              1              3              1              3              4 
+         Maine       Maryland  Massachusetts       Michigan      Minnesota    Mississippi 
+             3              2              1              2              3              4 
+      Missouri        Montana       Nebraska         Nevada  New Hampshire     New Jersey 
+             2              3              3              2              3              1 
+    New Mexico       New York North Carolina   North Dakota           Ohio       Oklahoma 
+             2              2              4              3              1              1 
+        Oregon   Pennsylvania   Rhode Island South Carolina   South Dakota      Tennessee 
+             1              1              1              4              3              4 
+         Texas           Utah        Vermont       Virginia     Washington  West Virginia 
+             2              1              3              1              1              3 
+     Wisconsin        Wyoming 
+             3              1 
+
+Within cluster sum of squares by cluster:
+[1] 16.212213 19.922437 11.952463  8.316061
+ (between_SS / total_SS =  71.2 %)
+
+Available components:
+
+[1] \"cluster\"      \"centers\"      \"totss\"        \"withinss\"     \"tot.withinss\" \"betweenss\"   
+[7] \"size\"         \"iter\"         \"ifault\"      
+"
